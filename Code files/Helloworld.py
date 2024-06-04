@@ -1,0 +1,1 @@
+print("learn python with fun at NED")
