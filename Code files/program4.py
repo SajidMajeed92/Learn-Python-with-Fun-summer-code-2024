@@ -1,4 +1,4 @@
-"""
+
 # using input() function to get a value from user
 
 fname = input('Enter your First Name :')
@@ -22,7 +22,7 @@ print(div)
 num3=float(input('Enter your third Number'))
 num4=float(input('Enter your fourth Number'))
 add = num3+num4
-print(add)"""
+print(add)
 # assign same value to all varibles
 x=y=z=4
 print(x)
