@@ -10,20 +10,14 @@ def draw_block():
 
 if __name__ == '__main__':
     pygame.init()
-
     surface = pygame.display.set_mode((500, 500))
     surface.fill((110, 110, 5))
-
     block = pygame.image.load("resources/block.jpg").convert()
-
     block_x, block_y = 100, 100
-
     surface.blit(block, (block_x, block_y))
-
     pygame.display.flip()
 
     running = True
-
     while running:
         for event in pygame.event.get():
             if event.type == KEYDOWN:
